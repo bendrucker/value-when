@@ -1,0 +1,29 @@
+{
+  "name": "value-when",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Return a value when a condition passes, otherwise return undefined",
+  "license": "MIT",
+  "repository": "bendrucker/value-when",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "value",
+    "when",
+    "undefined",
+    "condition"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
