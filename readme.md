@@ -22,6 +22,22 @@ when(false, 'value')
 //=> undefined
 ```
 
+Or use the functional API:
+
+```js
+var when = require('value-when/fn')
+
+when(true, function () {
+  return 'value'
+})
+//=> 'value'
+
+when(false, function () {
+  return 'value'
+})
+//=> undefined
+```
+
 ## API
 
 #### `when(condition, value)` -> `value` / `undefined`
@@ -37,7 +53,7 @@ A value to check for truthiness/falsiness.
 
 Type: `any`
 
-A value to return when the condition passes.
+A value to return when the condition passes. When using the functional API, `value` should be a function to be called to return the output value.
 
 
 ## License
