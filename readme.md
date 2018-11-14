@@ -1,4 +1,4 @@
-# value-when [![Build Status](https://travis-ci.org/bendrucker/value-when.svg?branch=master)](https://travis-ci.org/bendrucker/value-when)
+# value-when [![Build Status](https://travis-ci.org/bendrucker/value-when.svg?branch=master)](https://travis-ci.org/bendrucker/value-when) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/value-when.svg)](https://greenkeeper.io/)
 
 > Return a value when a condition passes, otherwise return undefined
 
